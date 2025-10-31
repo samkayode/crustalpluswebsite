@@ -63,7 +63,7 @@ header {
 }
 .hero {
   background-image: url(images/background9.jpg);
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
