@@ -11,6 +11,12 @@ closebtn.addEventListener("click", () => {
   navlinks.classList.remove("active");
 });
 
+const projectbutton = document.getElementById("projectBtn");
+if (projectbutton) {
+  projectbutton.addEventListener("click", () => {
+    window.location.href = "projects.html";
+  });
+}
 const boreholeBtn = document.getElementById("exploreBtn");
 if (boreholeBtn) {
   boreholeBtn.addEventListener("click", () => {
@@ -46,3 +52,4 @@ function rotateImage() {
   hero.style.backgroundImage = `url(${heroImages[currentImage]})`;
 }
 setInterval(rotateImage, 6000);
+
