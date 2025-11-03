@@ -387,6 +387,7 @@ textarea {
     cursor: pointer;
   }
   .sidebar-footer {
+    display: block;
     margin-top: auto;
     text-align: center;
     width: 100%;

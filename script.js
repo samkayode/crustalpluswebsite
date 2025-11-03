@@ -52,4 +52,3 @@ function rotateImage() {
   hero.style.backgroundImage = `url(${heroImages[currentImage]})`;
 }
 setInterval(rotateImage, 6000);
-
