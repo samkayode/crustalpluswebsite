@@ -343,12 +343,12 @@ textarea {
   }
   .sidebar {
     display: block;
-    font-size: 20px;
+    font-size: 30px;
     position: absolute;
     z-index: 1004;
     right: 30px;
     top: 20px;
-    color: rgb(13, 13, 69);
+    color: #1e4d8e;
   }
   .nav-links {
     position: fixed;
