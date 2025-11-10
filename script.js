@@ -27,7 +27,7 @@ if (boreholeBtn) {
 const geoBtn = document.getElementById("geophysicalBtn");
 if (geoBtn) {
   geoBtn.addEventListener("click", () => {
-    window.location.href = "services.html#geophysical-survey";
+    window.location.href = "services.html#Geophysical-survey";
   });
 }
 
